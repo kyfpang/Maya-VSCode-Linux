@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/sw/pkg/maya/2018/maya2018/include",
+                "/sw/pkg/maya/2018/maya2018/devkit/Alembic/include",
+                "/sw/pkg/maya/2018/maya2018/devkit/Alembic/include/AlembicPrivate",
+                "/sw/pkg/maya/2018/maya2018/devkit/Alembic/include/AlembicPrivate/ilmbase",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
