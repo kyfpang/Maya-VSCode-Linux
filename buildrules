@@ -12,7 +12,7 @@
 #+
 
 INCL_BUILDRULES := 1
-mayaVersion := 2018
+include $(TOP)/buildconfig
 
 
 #Add directories variables
@@ -21,8 +21,6 @@ OBJDIR := ./build/$(mayaVersion)
 OUTPUTBASEDIR := ./bin
 OUTPUTDIR := ./bin/$(mayaVersion)
 SRCDIR := ./src
-
-include $(TOP)/buildconfig
 
 ##################
 # Generic Rules  #

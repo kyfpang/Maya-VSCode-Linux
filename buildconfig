@@ -13,7 +13,7 @@ gccVersion :=
 
 DEVKIT_LOCATION = /sw/pkg/maya/$(mayaVersion)/maya$(mayaVersion)
 export DEVKIT_LOCATION
-
+$(info    Devkit location is $(DEVKIT_LOCATION))
 
 #-------------------------------------------------------------
 #
